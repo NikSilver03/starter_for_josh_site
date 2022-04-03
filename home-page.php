@@ -1,13 +1,17 @@
+<?php
+    /*
+    Template Name: Home page
+    */
+    ?>
 <?php get_header();?>
 <section class="container-fluid aboutbg text-center">
-        <div class="container">
-<h2>GAMES &amp; LEVEL DESIGNER</h2>
-<p class="particle">....and particle wizard</p>
-<p class="about-text">My  name is josh Whitkin. I’m a professional with more than 7 years of industry experience in Games Design, Level design, Scripting and Visual Effects.  What makes me passionate about games is the combination of technology  and creativity, and how multiple disciplines come together to create an interactive experience. Whether I'm designing for puzzle games, 2D platformers or 3D environments.
-    I always tell a story.</p>
-<div class="blocker"></div>
-        </div> <!-- container -->
-    </section>
+            <div class="container">
+            <h2><?php the_field('titleforaboutme'); ?></h2><!--  custom field for the aboutme content-->
+            <p class="particle"><?php the_field('subtitleforaboutme'); ?></p>
+            <p class="about-text"><?php the_field('paragraphforaboutme'); ?></p>        
+        </div><!-- container-->
+            <div class="blocker"></div>
+        </section>
 
             <section class="container-fluid articlesbg">
             <div class="container">
@@ -16,7 +20,7 @@
                 </div>
                 <div class="row"><!--  a row that gives us access to the BS columns-->
                     
-                <div class="col-md-4">
+                    <div class="col-md-4">
                       <img class="img-fluid" alt=“portait” src="http://206.189.45.97/~meshatmurdoch3/wp-content/themes/starter_for_josh_site/images/portrait1.jpg">
                         <h4 class="article-title">A PORTRAIT</h4>
                         <p class="date">12 December 2020</p>

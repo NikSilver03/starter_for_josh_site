@@ -38,9 +38,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
-<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">   
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <!-- Brand -->
+<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
+    <nav class="navbar navbar-expand-md navbar-dark">        
+        <!-- Brand -->       
         <a class="navbar-brand" href="#"><span class="josh">JOSH</span> <span class="orange"> WHITKIN</span></a>
       
         <!-- Toggler/collapsibe Button -->

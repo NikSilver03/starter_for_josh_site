@@ -33,7 +33,7 @@
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 </head>
 <body>
-<header class="container-fluid bg1" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">  
+<header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">  
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="#"><span class="josh">JOSH</span> <span class="orange"> WHITKIN</span></a>
